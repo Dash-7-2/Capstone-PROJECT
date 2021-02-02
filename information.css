@@ -1,0 +1,90 @@
+header {  
+    background-color: white;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 50px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 20px;  
+    }  
+    header li a {  
+        color: black;  
+        text-decoration: none;  
+        }  
+  ul {
+    color: black;
+  }
+  img {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}  
+
+div {
+    border:black;
+    display: flex;
+    width: max-content;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+pre {
+    font-size: large;
+    color: whitesmoke;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    size: 400px;
+    margin-top: 100px;
+    
+  }
+
+h3{
+    color: antiquewhite;
+    size: 50px;
+    text-decoration: underline;
+    font-family: Verdana, Tahoma, sans-serif;
+    position: relative;
+    text-align: center;
+}
+#lama4{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 510px;
+    top: 10px;
+}
+#quiz{
+    position: relative;
+    top: -30px;
+    left: 560px;
+}
+@media only screen and (width:600px){
+    body{
+        max-width: 440px;
+      }
+  }
+
+ 
+

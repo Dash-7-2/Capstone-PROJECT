@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    form {
+        color: whitesmoke;
+        position: relative;
+    
+    }
+    
+    p{
+       position: relative;
+       top: -35px;
+       left: 20px;
+       size: large;
+      
+    }
+    @media only screen and (width:600px){
+        body{
+            max-width: 440px;
+          }
+      }
+    
+    h1{
+        color: white;
+        text-decoration: underline;
+        size: large;
+        position: relative;
+        text-align: center;
+    }
+    
+    #submit{
+        background-color: lawngreen;
+    }
+    
+    .lefttop{
+        border: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    #timer{
+        border: 1px solid white;
+        width: 50px;
+        height: 50px;
+    }

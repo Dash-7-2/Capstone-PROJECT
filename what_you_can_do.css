@@ -1,0 +1,127 @@
+header {  
+    background-color: white;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 50px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 20px;  
+    }  
+    header li a {  
+        color: black;  
+        text-decoration: none;  
+        }  
+  ul {
+    color: black;
+  }
+li:hover{
+    color: green;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+  img {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}  
+body{
+    background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*pre {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    padding: 2px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: Verdana, Tahoma, sans-serif;
+
+
+}*/
+
+pre {
+    font-size: large;
+    color: whitesmoke;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    size: large;
+    margin: 2px;
+    text-emphasis: circle;
+}
+
+
+button{
+    text-decoration: none;
+}
+
+h3{
+    size: 50px;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+#police{
+    width: 160px;
+    height: 180px;
+    display: inline-block;
+    left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.police-button{
+    position: relative;
+    top: -190px;
+    left: 570px;
+    display: block;
+
+    
+}
+
+.parents{
+    position: relative;
+    top: -800px;
+    left: 8px;
+    display: block;
+}
+#lama3{
+    position: relative;
+    top: 4px;
+    left: 516px;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+@media only screen and (width:600px){
+  body{
+      max-width: 440px;
+    }
+}
